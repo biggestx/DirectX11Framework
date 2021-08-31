@@ -1,11 +1,17 @@
 # DirectX11Renderer
 
-- Direct X 11
-- C++
-- Assimp Library
+- Language
+    - C++
+    - HLSL
+- Library
+    - DirectX 11
+    - Assimp
 
-- Forward Rendering
-- Deffered Rendering
-- GPU Skinning
-- Vertext Texture Fetch
+----
+
+- Features
+    - Forward Rendering
+    - Deffered Rendering
+    - GPU Skinning
+    - Vertext Texture Fetch
 
