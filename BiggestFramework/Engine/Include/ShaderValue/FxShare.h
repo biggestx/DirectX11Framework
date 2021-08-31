@@ -1,0 +1,25 @@
+#pragma once
+// ==================== Share Shader Handle Key ====================
+
+
+
+#define SHADER_HANDLE_SHARE_MATRIX_WORLD			"g_matWorld"
+#define SHADER_HANDLE_SHARE_MATRIX_VIEW				"g_matView"
+#define SHADER_HANDLE_SHARE_MATRIX_PROJ				"g_matProj"
+#define SHADER_HANDLE_SHARE_MATRIX_WV				"g_matWV"
+#define SHADER_HANDLE_SHARE_MATRIX_WVP				"g_matWVP"
+#define SHADER_HANDLE_SHARE_MATRIX_INVERSEVIEW		"g_matInvView"
+#define SHADER_HANDLE_SHARE_TEXTURE_DIFFUSE			"g_DiffuseTex"
+#define SHADER_HANDLE_SAHRE_TEXTURE_SPECULAR		"g_SpecularTex"
+#define SHADER_HANDLE_SHARE_TEXTURE_NORMAL			"g_NormalTex"
+#define SHADER_HANDLE_SHARE_TEXTURE_EMISSIVE		"g_EmissiveTex"
+#define SHADER_HANDLE_SHARE_TEXTRUE_VTF				"g_VTFTex"		
+#define SHADER_HANDLE_SHARE_INT_VTFTEXTUREWIDTH		"g_iBoneVTFWidth"
+
+#define SHADER_HANDLE_SHARE_MATRIX_BONES			"g_matBones"
+
+#define SHADER_HANDLE_SHARE_FLOAT3_LIGHTDIR			"g_vDirLight"
+
+#define SHADER_HANDLE_SHARE_FLOAT3_LIGHTPOS			"g_vLightPos"
+#define SHADER_HANDLE_SHARE_FLOAT_LIGHTRADIUS		"g_fLightRadius"
+#define SHADER_HANDLE_SHARE_FLOAT3_LIGHTCOLOR		"g_vLightColor"

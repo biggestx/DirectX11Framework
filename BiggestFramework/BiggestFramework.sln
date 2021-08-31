@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Client", "01.Client", "{FFA0F085-5B70-4505-9281-2FCDEDF6A949}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Engine", "02.Engine", "{B9F93320-1C86-4DD7-BBCC-3DB8DC045593}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Include\Client.vcxproj", "{A8C4C0D0-82A7-4199-8FDD-4859E8915CCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9F36145-0C68-4C68-81D6-00FE78959743} = {D9F36145-0C68-4C68-81D6-00FE78959743}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Include\Engine.vcxproj", "{D9F36145-0C68-4C68-81D6-00FE78959743}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8C4C0D0-82A7-4199-8FDD-4859E8915CCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A8C4C0D0-82A7-4199-8FDD-4859E8915CCC}.Debug|Win32.Build.0 = Debug|Win32
+		{A8C4C0D0-82A7-4199-8FDD-4859E8915CCC}.Release|Win32.ActiveCfg = Release|Win32
+		{A8C4C0D0-82A7-4199-8FDD-4859E8915CCC}.Release|Win32.Build.0 = Release|Win32
+		{D9F36145-0C68-4C68-81D6-00FE78959743}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D9F36145-0C68-4C68-81D6-00FE78959743}.Debug|Win32.Build.0 = Debug|Win32
+		{D9F36145-0C68-4C68-81D6-00FE78959743}.Release|Win32.ActiveCfg = Release|Win32
+		{D9F36145-0C68-4C68-81D6-00FE78959743}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8C4C0D0-82A7-4199-8FDD-4859E8915CCC} = {FFA0F085-5B70-4505-9281-2FCDEDF6A949}
+		{D9F36145-0C68-4C68-81D6-00FE78959743} = {B9F93320-1C86-4DD7-BBCC-3DB8DC045593}
+	EndGlobalSection
+EndGlobal
