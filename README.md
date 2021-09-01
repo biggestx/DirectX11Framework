@@ -10,7 +10,7 @@ Library
     - DirectX 11
     - Assimp
 
-Features
+Details
 ----
     - Forward Rendering
     - Deffered Rendering
