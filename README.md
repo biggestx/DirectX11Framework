@@ -12,6 +12,8 @@
 - Features
     - Forward Rendering
     - Deffered Rendering
+    - Loading FBX
+    - Animation
     - GPU Skinning
     - Vertext Texture Fetch
-
+    - Component Based Architecture
