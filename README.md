@@ -1,15 +1,17 @@
 # DirectX11Renderer
 
-- Language
+Language
+----
     - C++
     - HLSL
-- Library
+
+Library
+----
     - DirectX 11
     - Assimp
 
+Features
 ----
-
-- Features
     - Forward Rendering
     - Deffered Rendering
     - Loading FBX
