@@ -1,6 +1,6 @@
 # DirectX11Renderer
 
-Language
+Languages
 ----
     - C++
     - HLSL
