@@ -5,7 +5,7 @@ Language
     - C++
     - HLSL
 
-Library
+Libraries
 ----
     - DirectX 11
     - Assimp
